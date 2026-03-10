@@ -25,6 +25,3 @@ This project is a web gallery showing different foods and drinks. Anyone can fil
 4. Click on images to view them in the lightbox popup.
 5. Click ❤ to like your favorite items.
 6. Use the filter buttons to see Food or Drinks only.
-
-## Live Demo
-[View Online](https://YourUsername.github.io/food-gallery/)
