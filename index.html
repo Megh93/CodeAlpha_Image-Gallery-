@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+        <h2>This gallery shows a variety of spicy foods, sweet desserts, and drinks.</h2>
+    </header>
+
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="drink">Drinks</button>
+    </div>
+
+    <div class="gallery">
+        <div class="food-card" data-category="food">
+            <img src="images/pizza.jpg" alt="Pizza">
+            <div class="food-name">Pizza</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="food">
+            <img src="images/pasta.jpg" alt="Pasta">
+            <div class="food-name">Pasta</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="drink">
+            <img src="images/mango-mocktail.jpg" alt="Mango Mocktail">
+            <div class="food-name">Mango Mocktail</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="drink">
+            <img src="images/iced-coffee.jpg" alt="Iced Coffee">
+            <div class="food-name">Iced Coffee</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="food">
+            <img src="images/strawberry-donuts.jpg" alt="Strawberry Donuts">
+            <div class="food-name">Strawberry Donuts</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="food">
+            <img src="images/chocolate-cake.jpg" alt="Chocolate Cake">
+            <div class="food-name">Chocolate Cake</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="food">
+            <img src="images/pancakes.jpg" alt="Pancakes">
+            <div class="food-name">Pancakes</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+        <div class="food-card" data-category="food">
+            <img src="images/quesadilla.jpg" alt="Quesadilla">
+            <div class="food-name">Quesadilla</div>
+            <button class="like-btn">❤ <span>0</span></button>
+        </div>
+    </div>
+
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-nav">
+            <button class="prev">&lt;</button>
+            <button class="next">&gt;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
